@@ -1,9 +1,9 @@
 {
-  "name": "jitsi-meet-electron",
+  "name": "comChat-video-Meeting-electron",
   "version": "2023.2.0",
-  "description": "Electron application for Jitsi Meet",
+  "description": "Electron application for comChat video Meeting",
   "main": "./build/main.js",
-  "productName": "Jitsi Meet",
+  "productName": "comChat Video Meeting",
   "private": true,
   "scripts": {
     "start": "webpack --config ./webpack.main.js --mode development && concurrently \"npm:watch\" \"electron ./build/main.js\"",
@@ -19,7 +19,7 @@
   },
   "build": {
     "appId": "org.jitsi.jitsi-meet",
-    "productName": "Jitsi Meet",
+    "productName": "comChat Video Meeting",
     "generateUpdatesFilesForAllChannels": true,
     "afterSign": "./notarize.js",
     "files": [
