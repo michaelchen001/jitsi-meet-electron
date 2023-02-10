@@ -13,7 +13,7 @@ export default {
     /**
      * Application name.
      */
-    appName: 'Jitsi Meet',
+    appName: 'comChat Video Meeting',
 
     /**
     * The prefix for application protocol.
@@ -24,7 +24,7 @@ export default {
     /**
      * The default server URL of Jitsi Meet Deployment that will be used.
      */
-    defaultServerURL: 'https://meet.jit.si',
+    defaultServerURL: 'https://videochat2.saedgn.com.cn',
 
     /**
      * The default server Timeout in seconds.
