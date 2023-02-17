@@ -96,7 +96,7 @@
       ]
     },
     "win": {
-      "artifactName": "jitsi-meet.${ext}",
+      "artifactName": "comChat-video-Meet.${ext}",
       "target": [
         {
           "arch": [
@@ -134,7 +134,7 @@
     "electron",
     "jitsi-meet"
   ],
-  "author": "Jitsi Team <support@jitsi.org>",
+  "author": "comChat Vmeet<support@comChat>",
   "readmeFilename": "README.md",
   "license": "Apache-2.0",
   "dependencies": {
