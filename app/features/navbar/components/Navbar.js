@@ -8,7 +8,10 @@ import { connect } from 'react-redux';
 
 import { SettingsButton, SettingsDrawer } from '../../settings';
 
+/**
 import HelpButton from './HelpButton';
+*/
+
 import Logo from './Logo';
 
 type Props = {
