@@ -98,6 +98,7 @@ class HelpButton extends Component<*, State> {
                 position = 'right bottom'
                 trigger = { <HelpIcon /> }>
                 <Group heading = { t('help') } >
+/**                                  
                     <Item onActivate = { this._onTermsClick }>
                         { t('termsLink') }
                     </Item>
@@ -113,6 +114,7 @@ class HelpButton extends Component<*, State> {
                     <Item onActivate = { this._onSourceClick }>
                         { t('sourceLink') }
                     </Item>
+*/                    
                     <Item>
                         { t('versionLabel', { version }) }
                     </Item>
