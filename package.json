@@ -96,7 +96,7 @@
       ]
     },
     "win": {
-      "artifactName": "comChat-video-Meet.${ext}",
+      "artifactName": "jitsi-meet.${ext}",
       "target": [
         {
           "arch": [
