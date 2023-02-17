@@ -99,21 +99,21 @@ class HelpButton extends Component<*, State> {
                 trigger = { <HelpIcon /> }>
                 <Group heading = { t('help') } >
 /**                                  
-                    <Item onActivate = { this._onTermsClick }>
-                        { t('termsLink') }
-                    </Item>
-                    <Item onActivate = { this._onPrivacyClick }>
-                        { t('privacyLink') }
-                    </Item>
-                    <Item onActivate = { this._onSendFeedbackClick }>
-                        { t('sendFeedbackLink') }
-                    </Item>
-                    <Item onActivate = { this._onAboutClick }>
-                        { t('aboutLink') }
-                    </Item>
-                    <Item onActivate = { this._onSourceClick }>
-                        { t('sourceLink') }
-                    </Item>
+ *                   <Item onActivate = { this._onTermsClick }>
+ *                       { t('termsLink') }
+ *                   </Item>
+ *                   <Item onActivate = { this._onPrivacyClick }>
+ *                       { t('privacyLink') }
+ *                   </Item>
+ *                   <Item onActivate = { this._onSendFeedbackClick }>
+ *                       { t('sendFeedbackLink') }
+ *                   </Item>
+ *                   <Item onActivate = { this._onAboutClick }>
+ *                       { t('aboutLink') }
+ *                   </Item>
+ *                   <Item onActivate = { this._onSourceClick }>
+ *                       { t('sourceLink') }
+ *                   </Item>
 */                    
                     <Item>
                         { t('versionLabel', { version }) }
