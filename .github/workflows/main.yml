@@ -5,10 +5,10 @@ on:
   # but only for the master branch
   push:
     branches:
-      - master
+      - michaelchen001-vmeet
   pull_request:
     branches:
-      - master
+      - michaelchen001-vmeet
 
 jobs:
   build-windows:
