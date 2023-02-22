@@ -18,7 +18,7 @@
     "node": ">=14.0.0"
   },
   "build": {
-    "appId": "org.jitsi.jitsi-meet",
+    "appId": "org.jitsi.jitsi-meet1",
     "productName": "comChat Video Meeting",
     "generateUpdatesFilesForAllChannels": true,
     "afterSign": "./notarize.js",
@@ -96,7 +96,7 @@
       ]
     },
     "win": {
-      "artifactName": "jitsi-meet.${ext}",
+      "artifactName": "jitsi-meet1.${ext}",
       "target": [
         {
           "arch": [
@@ -115,7 +115,7 @@
         "name": "jitsi-protocol",
         "role": "Viewer",
         "schemes": [
-          "jitsi-meet"
+          "jitsi-meet1"
         ]
       }
     ]
