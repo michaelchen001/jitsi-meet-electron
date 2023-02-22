@@ -29,5 +29,5 @@ jobs:
       with:
         name: windows-binaries
         path: |
-          dist/jitsi-meet.exe
+          dist/jitsi-meet1.exe
           dist/latest.yml
