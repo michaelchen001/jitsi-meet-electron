@@ -24,7 +24,7 @@ export default {
     /**
      * The default server URL of Jitsi Meet Deployment that will be used.
      */
-    defaultServerURL: 'https://videochat2.saedgn.com.cn',
+    defaultServerURL: 'https://d2vmeet.saetdk.com.cn',
 
     /**
      * The default server Timeout in seconds.
