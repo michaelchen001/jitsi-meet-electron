@@ -171,7 +171,7 @@ function createJitsiMeetWindow() {
 
     // Check for Updates.
     if (!process.mas) {
-        autoUpdater.checkForUpdatesAndNotify();
+    //    autoUpdater.checkForUpdatesAndNotify();
     }
 
     // Load the previous window state with fallback to defaults.
